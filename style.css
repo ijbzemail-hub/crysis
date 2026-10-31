@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Mono+One&display=swap');
+
+
+body{
+    font-family: "Roboto";
+    font-weight: 500;
+    background-color: #ffffff;
+    position: relative;
+    margin: 0;
+}
+
+ *,:after,:before {
+    box-sizing: inherit;
+}
+
+.up{
+    background-color: #FFF;
+    position: absolute;
+}
+.down{
+    background-color: #15222a;
+    position: absolute;
+}
+
+header{
+    background: linear-gradient(0deg, #2b2b2b, #8d8b8b);
+    width: 100%;
+}
+.navig{
+    display: flex;
+    width: 33%;
+    color: #FFF;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    height: 55px;
+    font-weight: 900;
+}
+
+.navig:hover{
+    background: linear-gradient(0deg, #2b2b2b, #545454);
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.black{
+    background: #15222a;
+    /* position: absolute; */
+    bottom: 0;
+    height: 50%;
+    width: 100%;
+    z-index: 1;
+}
+
+.Logo{
+    display: grid;
+    height: 22rem;
+    left: 15%;
+    max-height: 20vw;
+    place-items: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50%;
+    z-index: 3;
+}
+
+.triology__slide__image {
+    display: grid;
+    grid-template-columns: 1.3fr .7fr;
+    grid-gap: 2rem;
+    align-items: start;
+    gap: 2rem;
+    overflow: visible;
+    position: relative;
+}
+
+.triology__slide__image .image {
+    border: 1px solid #d3d2c4;
+    cursor: pointer;
+    position: relative;
+}
+
+.triology__slide__image .image img, .triology__slide__image .image picture, .triology__slide__image .image video {
+    outline: none;
+    width: 100%;
+}
+
+audio, canvas, progress, video {
+    display: inline-block;
+}
+
+.Web_1{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 100%;
+    margin: 0 auto;
+    max-width: 1440px;
+    padding: 4rem 40px;
+    position: relative;
+    z-index: 3;
+}
+
+.img_photo{
+    border-style: none;
+    display: block;
+    max-width: 100%;
+}
+
+.svg_logo{
+    display: block;
+    fill: #fff;
+    height: 100%;
+    width: 100%;
+}
+
+.photo{
+    display: grid;
+    height: 100%;
+    place-items: center;
+    position: relative;
+    transform: scale(1.2) translateY(7%);
+    box-sizing: inherit;
+    z-index: 3;
+}
+
+a{
+    text-decoration: none;
+}
+
+.game_purchase_action_bg{
+    margin-top: -110px;
+}
+
+.Button{
+    width: 120px;
+    height: 55px;
+    background: linear-gradient(175deg, #313f34, #3ba047);
+    color: #FFF;
+    border-radius: 5px;
+    font-weight: 500px;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -25;
+}
